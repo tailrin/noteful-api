@@ -3,6 +3,6 @@ CREATE TABLE noteful_notes (
     notename TEXT NOT NULL,
     notecontents TEXT NOT NULL,
     date_created TIMESTAMP NOT NULL DEFAULT now()
-)
+);
 
 
